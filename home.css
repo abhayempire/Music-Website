@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body .upper{
+    background-image: url(headphone.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #333;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+li:hover{
+    background-color: rgb(65, 64, 64);
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.upper .topic{
+    /* border: 2px solid springgreen; */
+    width: 90%;
+    margin: 0 auto 120px auto;
+    padding-top: 120px;
+}
+
+.heading p{
+    font-size: 4rem;
+}
+
+.heading, .mid{
+    color: #fff;
+    /* font-size: 2rem; */
+    text-align: center;
+}
+.mid .para{
+    font-size: 2rem;
+    margin-top: 50px;
+}
+.mid #text{
+    margin-top: 35px;
+    font-size: 0.95em;
+    line-height: 30px;
+}
+
+.mid{
+    font-size: 1.5rem;
+}
+
+.second{
+    color: #fff;
+    text-align: center;
+    background-color: #252529;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.second #music{
+    font-size: 2.5em;
+}
+
+.second .fa-solid{
+    margin-right: 10px;
+    font-size: 2.5em;
+}
+
+.second h1{
+    margin-top: 50px;
+    
+}
+
+.second .text2{
+    width: 90%;
+    margin: auto;
+    font-size: 1.4em;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.btn button{
+    padding: 20px 15px;
+    background-color: #b90415;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn button:hover{
+    background-color: #c00d1f;
+}
+
+.second .text3{
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.second img{
+    margin-top: 30px;
+    width: 88%;
+}
+
+.third{
+    padding: 50px 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.third h1{
+    margin-top: 20px;
+}
+
+.third .mid2{
+    color: #333;
+    font-size: 1.3em;
+    width: 90%;
+    margin: 50px auto 0 auto;
+    line-height: 35px;
+}
+
+.btn2 button{
+    padding: 20px 15px;
+    background-color: #103063;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn2 button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.third .btn2 button:hover{
+    background-color: #143d7e;
+}
+
+.third img{
+    margin-top: 10px;
+    width: 97%;
+}
+
+.fourth{
+    background-image: url(night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 185px 0 185px 0;
+    width: 100%;
+    margin: auto;
+}
+
+.fourth .mid3{
+    font-size: 1.3em;
+    width: 90%;
+    margin: 50px auto 0 auto;
+    line-height: 30px;
+}
+
+.fifth{
+    display: flex;
+    /* border: 2px solid black; */
+    padding-bottom: 30px;
+    
+}
+
+
+.fifth .gift{
+    width: 700px;   
+}
+
+.fifth .gift img{
+    width: 80%;
+    height: 90%;
+    margin: 45px 0 0 20px;
+}
+
+.fifth .details{
+    width: 50%;
+   padding: 30px 0 0 0;
+    margin-top: 60px;   
+}
+
+.details p{
+    margin-top: 22px;
+    line-height: 25px;
+    width: 87%;
+    font-size: 17px;
+}
+
+.details hr{
+    margin: 20px 0 12px 0;
+    width: 87%;
+}
+
+.fifth .fa-solid{
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.fifth .headicon a{
+    text-decoration: none;
+    color: rgb(54, 54, 234);
+}
+
+.sixth{
+    height: 40vh;
+    background-color: #252529;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.sixth hr{
+    width: 15vw;
+}
+
+.sixth .link1{
+    /* border: 2px solid springgreen; */
+    margin-top: 50px;
+}
+
+.sixth .link1 p{
+    font-size: 22px;
+}
+
+.sixth .link1 hr{
+    margin: 13px auto;
+}
+
+.sixth .link1 ul li{
+    list-style: none;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
